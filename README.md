@@ -6,7 +6,7 @@
 Front-end: Built with react, typescript, hooks for state management and performance, tailwindcss for creating rich and
 dynamic interfaces.
 
-## Project setup Back-end
+## 🔴 Project setup Back-end
 
 ```bash
 cd back
@@ -35,7 +35,7 @@ $ npm run test
 
 ---
 
-## Project setup Front-end
+## 🔵 Project setup Front-end
 
 ```bash
 cd front
