@@ -1,9 +1,14 @@
 ## Duck Duck Search App
 
-**Back-end**: Built with nest.js and hexagonal architecture (ports and adapters), this way we have flexibility when
-**changing**, for example, the type of history file from json to redis or database.
+**Full-stack web application that allows users to perform intelligent searches (using duckduckgo api) and store history
+using a modern stack
+with NestJS (back-end) and React (front-end).**
 
-Front-end: Built with react, typescript, hooks for state management and performance, tailwindcss for creating rich and
+**Back-end**: Built with nest.js and hexagonal architecture (ports and adapters), this way we have flexibility when
+changing, for example, the type of history file from json to redis or database.
+
+**Front-end**: Built with react, typescript, hooks for state management and performance, tailwindcss for creating rich
+and
 dynamic interfaces.
 
 ## 🔴 Project setup Back-end
