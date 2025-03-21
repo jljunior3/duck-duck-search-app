@@ -4,10 +4,10 @@
 using a modern stack
 with NestJS (back-end) and React (front-end).**
 
-**Back-end**: Built with nest.js and hexagonal architecture (ports and adapters), this way we have flexibility when
+🔴**Back-end**: Built with nest.js and hexagonal architecture (ports and adapters), this way we have flexibility when
 changing, for example, the type of history file from json to redis or database.
 
-**Front-end**: Built with react, typescript, hooks for state management and performance, tailwindcss for creating rich
+🔵**Front-end**: Built with react, typescript, hooks for state management and performance, tailwindcss for creating rich
 and
 dynamic interfaces.
 
