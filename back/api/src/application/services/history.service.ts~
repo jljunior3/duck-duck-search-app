@@ -1,0 +1,13 @@
+import { Injectable } from '@nestjs/common';
+import { HistoryRepository } from '../ports/history.repository';
+import { History } from '../../domain/history.entity';
+
+@Injectable()
+export class HistoryService {
+  constructor(private readonly historyRepository: HistoryRepository) {}
+
+  async execute(query: string): Promise<void> {
+    const historyEntry = History.create(query);
+    await this.historyRepository.saveQuery(historyEntry.query);
+  }
+}

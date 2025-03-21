@@ -1,0 +1,10 @@
+POST http://localhost:3000/search
+Content-Type: application/json
+
+{
+  "term": "Brazil"
+}
+
+###
+GET http://localhost:3000/history
+Content-Type: application/json
